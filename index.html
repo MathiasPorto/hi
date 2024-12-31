@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vamos sair ano que vem?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .botao {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .sim {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+    .nao {
+      background-color: #E74C3C;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>vamos sair ano que vem?</h1>
+    <button class="botao sim">sim!!</button>
+    <button class="botao nao">me deixa em paz, garoto</button>
+    <script>
+        document.querySelector('.sim').addEventListener('click', function() {
+          alert('me chama lá 11934398720');
+        });
+        
+        document.querySelector('.nao').addEventListener('click', function() {
+          alert('Ok :(');
+        });
+      </script>
+</div>
+</body>
+</html>
